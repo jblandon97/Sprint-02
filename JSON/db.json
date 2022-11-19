@@ -1,0 +1,60 @@
+{
+    "estates": [
+        {
+            "img": "https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/pixasquare-622732-unsplash-836x517.jpg",
+            "name": "26502 Vía Cuervo, Mission Viejo, CA 92691, USA",
+            "location": "Mission Viejo, CA",
+            "area": "1400 Sq Ft",
+            "rooms": "3",
+            "bathrooms": "4",
+            "type": "SUMMER HOUSE",
+            "status": "FOR RENT",
+            "price": "$160,000.00",
+            "parks": "2",
+            "agent": "Lionel Richie",
+            "date": "3 years ago"
+        },
+        {
+            "img": "https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/jessica-furtney-244838-unsplash-1-836x517.jpg",
+            "name": "2710 Hilltop Dr, Newport Beach, CA 92660, USA",
+            "location": "Newport Beach, CA",
+            "area": "1300 Sq Ft",
+            "rooms": "3",
+            "bathrooms": "3",
+            "type": "OFFICE",
+            "status": "FOR RENT",
+            "price": " $900.00",
+            "parks": "6",
+            "agent": "beHome Agencye",
+            "date": "3 years ago"
+        },
+        {
+            "img": "https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/ant-rozetsky-226347-unsplash-836x517.jpg",
+            "name": "272 S Rexford Dr, Beverly Hills, CA 90212, USA",
+            "location": "Beverly Hills, CA",
+            "area": "2400 Sq Ft",
+            "rooms": "3",
+            "bathrooms": "3",
+            "type": "HOUSE",
+            "status": "FOR SALE",
+            "price": "$225,000.00",
+            "parks": "2",
+            "agent": "Lionel Richie",
+            "date": "3 years ago"
+        },
+        {
+            "img": "https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/isaac-benhesed-249429-unsplash-836x517.jpg",
+            "name": "Apartment Building Having 29 Apartments",
+            "location": "Los Angeles, CA",
+            "area": "1400 Sq Ft",
+            "rooms": "3",
+            "bathrooms": "2",
+            "type": "RESIDENTIAL TOWER",
+            "status": "FOR RENT",
+            "price": "From $350.00 Per Month",
+            "parks": "2",
+            "agent": "John Doe",
+            "date": "3 years ago"
+        }
+    ]
+}

@@ -1,0 +1,562 @@
+.hidden {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    /* casaRoyal */
+    font-family: 'Rubik', sans-serif;
+    position: relative;
+    width: 1735px;
+    height: 11023px;
+
+    background: #FFFFFF;
+}
+
+#Menu {
+    /* Menu */
+    position: absolute;
+    width: 1735px;
+    height: 136px;
+    left: 0px;
+    top: 0px;
+
+}
+
+#Top-Menu {
+    background: blue;
+    color: #FFFFFF;
+    height: 33.33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#loginRegister {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+}
+
+#main-menu {
+    position: absolute;
+    width: 1735px;
+    height: 83px;
+    left: 0px;
+    top: 53px;
+
+
+}
+
+#main-menu nav a {
+    position: relative;
+    margin: 20px;
+    text-decoration: none;
+
+}
+
+
+#logo {
+    /* Logo */
+
+
+    position: absolute;
+    width: 215px;
+    height: 82px;
+    left: 35.9px;
+    top: 53px;
+    border-right: 1px solid #EFEFEF;
+}
+
+#submitListing {
+    /* Submit Listing */
+
+
+    position: absolute;
+    width: 199px;
+    height: 60px;
+    left: 1536px;
+    top: 0px;
+    background: #FF5E14;
+    border: none;
+    color: #FFFFFF;
+}
+
+#heroHeader {
+    /* Hero Header */
+
+    position: absolute;
+    width: 1735px;
+    height: 663px;
+    left: 0px;
+    top: 136px;
+    border: 1px solid black;
+    background-image: url("../IMG/hero-bg-image.svg");
+
+
+}
+
+
+#heroHeader h1 {
+
+    position: absolute;
+    height: 50px;
+    left: 13.08%;
+    right: 60.12%;
+    top: calc(50% - 50px/2 - 149.5px);
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 50px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+#heroHeader h3 {
+    position: absolute;
+    height: 21px;
+    left: 13.08%;
+    right: 72.28%;
+    top: calc(50% - 21px/2 - 102px);
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+#heroHeader form {
+    /* Search Form Background */
+
+    position: absolute;
+    left: 13.08%;
+    right: 13.14%;
+    top: 44.34%;
+    bottom: 37.71%;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+form label,
+#Search {
+    height: 60px;
+    background-color: #EFEFEF;
+    padding: 10px;
+
+}
+
+form input {
+    border: none;
+    background: local;
+}
+
+
+form label[for="Type"] {
+    width: 274px;
+}
+
+form label[for="Status"] {
+    width: 188px;
+
+}
+
+#Search {
+    width: 456px;
+}
+
+form button {
+    width: 214px;
+    height: 60px;
+    background: #2A41E8;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+}
+
+footer {
+    /* Footer */
+    position: absolute;
+    width: 1735px;
+    height: 701px;
+    left: 0px;
+    top: 10322px;
+    background: #151515;
+}
+
+footer header {
+    /* Footer Header */
+    position: absolute;
+    width: 1735px;
+    height: 104px;
+    left: 0px;
+    top: 2px;
+    /* border: 1px solid rgba(255, 255, 255, 0.070613); */
+}
+
+#copyright {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 79.6%;
+    bottom: 0%;
+    border: 1px solid rgba(255, 255, 255, 0.070613);
+    color: white;
+}
+
+#Menus {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 14.98%;
+    bottom: 84.88%;
+    border: 1px solid rgba(255, 255, 255, 0.070613);
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 70px;
+    /* align-items: center; */
+}
+
+.Menu {
+    width: 15%;
+    height: 200px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.Menu h5,
+.Menu p {
+
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+#Address {
+    margin-left: 20px;
+}
+
+#featuredProperties h6 {
+    /* CASAROYAL REAL ESTAT */
+
+
+    position: absolute;
+    height: 17px;
+    left: 45%;
+    /* right: 23.02%; */
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #8C8C8C;
+}
+
+#featuredProperties h1 {
+    /* Featured Properties */
+
+
+    position: absolute;
+    height: 66px;
+    text-align: center;
+    left: 35%;
+    margin-top: 15px;
+    /* top: calc(50% - 66px/2 + 15px); */
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 66px;
+
+    color: #111111;
+}
+
+#featuredProperties {
+    /* Section - Featured Properties */
+
+    position: absolute;
+    width: 1500px;
+    height: 3000px;
+    left: 50%;
+    translate: -50%;
+    top: 919px;
+    /* border: #111111 solid 1px; */
+    margin: 0 auto;
+}
+
+#estates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+    margin-top: 200px;
+    gap: 20px;
+}
+
+.card {
+    width: 398px;
+    height: 519px;
+    background-color: #f7f3f3
+
+
+    /* border: #111111 solid 1px; */
+}
+
+/*.card .img {
+     background: url("https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/jessica-furtney-244838-unsplash-1-836x517.jpg"); */
+    /* width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center; 
+}
+*/
+
+.card .location p {
+    position: relative;
+    margin-top: 5%;
+    left: 6.53%;
+    right: 63.07%;
+    top: 57.61%;
+    bottom: 39.11%;
+}
+
+.card .name p {
+    position: relative;
+    text-align: justify;
+    width: 314px;
+    height: 64px;
+    left: 6.53%;
+    right: 14.57%;
+    margin-top: 5%;
+
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+
+    color: #1D1D1D;
+
+}
+
+.card .agent p {
+
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    height: 17px;
+    left: 6.53%;
+    right: 0%;
+    top: calc(50% - 17px/2);
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #2A41E8;
+
+}
+
+.card .date p {
+
+    position: relative;
+    display: inline-block;
+    height: 17px;
+    left: 70%;
+    right: 0%;
+    top: -20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #848484;
+
+}
+
+.card .agent p {
+
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+    height: 17px;
+    left: 13%;
+    right: 0%;
+    top: calc(50% - 17px/2);
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #2A41E8;
+
+}
+
+.card .area p {
+    position: relative;
+    display: inline-block;
+    height: 19px;
+    left: 6.53%;
+    right: 0%;
+    bottom: 5%;
+    top: 20px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #111111;
+}
+
+.card button {
+    padding: 5px;
+    border: none;
+}
+
+.card .type button {
+    position: relative;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+
+    left: 6.28%;
+    right: 78.14%;
+    top: 4.82%;
+    bottom: 89.4%;
+    background: #2A42E8;
+    border-radius: 4px;
+}
+
+.card .status button {
+    position: relative;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+
+    left: 35%;
+    right: 78.14%;
+    top: 4.82%;
+    bottom: 24px;
+    background: #FF5E15;
+    border-radius: 4px;
+}
+
+.card .price button {
+    position: relative;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #2A42E8;
+
+    left: 6.28%;
+    right: 78.14%;
+    top: 4.82%;
+    bottom: -150px;
+    background: white;
+    border-radius: 4px;
+}
+
+.features {
+    display: flex;
+    margin-left: 230px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    gap: 30px;
+}
+
+/* .parks:before {
+    content: url("../IMG/park.svg");
+    margin-right: 5px;
+
+}
+.bathrooms:before {
+    content: url("../IMG/bathroom.svg");
+    margin-right: 5px;
+
+}
+.rooms:before {
+    content: url("../IMG/room.svg");
+    margin-right: 5px;
+
+} */
+
+
+@media (max-width: 1700px) {
+
+
+}

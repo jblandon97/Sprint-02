@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 03</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="JS/main.js" defer></script>
+    <script src="JS/filter.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div id="Menu">
+            <div id="Top-Menu">
+                <p>1441 Market St, San Francisco</p>
+                <p>(123) 456-7890</p>
+                <p>Mon - Soun: 8:00am - 6:00pm</p>
+                <button type="submit" id="loginRegister">LOGIN/REGISTER</button>
+            </div>
+            <div id="main-menu">
+                <nav>
+                    <a href="#"><img src="IMG/Logo.svg" alt="Logo">casaRoyal</a>
+                    <a href="" class="main-menu_options">HOMEPAGE</a>
+                    <a href="" class="main-menu_options">PROPIERTIES</a>
+                    <a href="" class="main-menu_options">AGENCIES</a>
+                    <a href="" class="main-menu_options">PAGES</a>
+                    <a href="" class="main-menu_options">ABOUT</a>
+                    <a href="" class="main-menu_options">CONTACT</a>
+                    <a href="" class="main-menu_options">COMPARE</a>
+                </nav>
+                <button type="submit" id="submitListing">SUBMIT LISTING</button>
+            </div>
+            <div id="heroHeader">
+                <h1>Let Us Guide You Hom</h1>
+                <h3>Find the house of yo</h3>
+                <form id="findTheHouse">
+                    <label for="Type">
+                        <h4>Type</h4>
+                        <input type="text" name="type" id="Type" placeholder="Select Type">
+                    </label>
+                    <label for="Status">
+                        <h4>Status</h4>
+                        <input type="text" name="status" id="Status" placeholder="Select Status">
+                    </label>
+                    <input type="text" name="search" id="Search"
+                        placeholder="Searh for properties, suburbs or keywords…">
+                    <button type="submit" id="findPropierties">
+                        <span>FIND PROPERTIES</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <section id="featuredProperties">
+            <h6>CASAROYAL REAL ESTAT</h6>
+            <h1><strong>Featured</strong> Properties</h1>
+            <div id="estates">
+                <!-- <div class="card">
+                    <style>
+                        .card .img {
+                            background: url('https://casaroyal.fantasythemes.net/wp-content/uploads/2019/09/jessica-furtney-244838-unsplash-1-836x517.jpg');
+                            width: 100%;
+                            height: 50%;
+                            background-size: cover;
+                            background-position: center;
+    
+                        }
+                        .parks:before {
+                            content: url("../IMG/park.svg");
+                            margin-right: 5px;
+    
+                        }
+                        .bathrooms:before {
+                            content: url("../IMG/bathroom.svg");
+                            margin-right: 5px;
+    
+                        }
+    
+                        .rooms:before {
+                            content: url("../IMG/room.svg");
+                            margin-right: 5px;
+    
+                        }
+                    </style>
+                    <section class="img">
+                        <section class="type">
+                            <button>SUMMER HOUSE</button>
+                        </section>
+                        <section class="status">
+                            <button>FOR RENT</button>
+                        </section>
+                        <section class="price">
+                            <button>$160,000.00</button>
+                        </section>
+                    </section>
+                    <section class="location">
+                        <p>Newport Beach, CA</p>
+                    </section>
+                    <section class="name">
+                        <p>2710 Hilltop Dr, Newport Beach, CA 92660, USA</p>
+                    </section>
+                    <section class="agent">
+                        <p>beHome Agencye</p>
+                    </section>
+                    <section class="date">
+                        <p>3 years ago</p>
+                    </section>
+                    <section class="area">
+                        <p>1400 Sq Ft</p>
+                    </section>
+                    <section class="features">
+                        <p class="rooms">3</p>
+                        <p class="bathrooms">4</p>
+                        <p class="parks">2</p>
+                    </section>
+                </div> -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <header>
+        </header>
+        <section id="Menus">
+            <div class="container">
+                <div class="Menu">
+                    <h3>INFORMATION</h3>
+                    <h5>Our Contacts</h5>
+                    <h5>Privacy Policy</h5>
+                    <h5>terms and Conditions</h5>
+                    <h5>FAQs</h5>
+                </div>
+
+                <div class="Menu">
+                    <h3>PROPERTIES</h3>
+                    <h5>Commercial</h5>
+                    <h5>House</h5>
+                    <h5>Office</h5>
+                    <h5>Residential</h5>
+                    <h5>Residential Tower</h5>
+                </div>
+                <div class="Menu">
+                    <h3>LOCATIONS</h3>
+                    <h5>Beverly Hills</h5>
+                    <h5>Los Angeles</h5>
+                    <h5>Mission Viejo</h5>
+                    <h5>Newport Beach</h5>
+                    <h5>Pasadena</h5>
+                </div>
+                <div class="Menu">
+                    <h3>USEFULL LINKS</h3>
+                    <h5>Blog</h5>
+                    <h5>Our Contacts</h5>
+                    <h5>Submit Listing</h5>
+                    <h5>Support</h5>
+                </div>
+                <div class="Menu">
+                    <h3>ABOUT CASAROYAL</h3>
+                    <p>casaRoyal - Premium Real Estate WordPress<br>
+                        Theme by FantasyThemes</p>
+                    <p id="Address">111 Wall Stree, USA, New York <br>
+                        +1 (234) 567 8900</p>
+                </div>
+            </div>
+        </section>
+        <section id="copyright">
+            <p>Proudly powered by WordPress and casaRoyal by FantasyTheme</p>
+            <p>Privacy Policy Terms and Conditions Contact Us</p>
+        </section>
+    </footer>
+</body>
+
+</html>
